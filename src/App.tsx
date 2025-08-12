@@ -808,7 +808,7 @@ export default function Home() {
           <div className="text-center">
             <h3 className="text-white font-semibold mb-4">VTuber Stream Archives</h3>
             <p className="text-slate-400 mb-6">
-              Personal preservation projects for Neuro-sama (AI VTuber), Filian, and Neuro-sama's friends streams
+              A preservation projects for Neuro-sama (AI VTuber), Neuro-sama's friends, and Filian streams
             </p>
             <div className="flex justify-center gap-6">
               <a 
