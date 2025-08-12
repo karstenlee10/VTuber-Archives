@@ -429,7 +429,7 @@ export default function Home() {
                 VTuber
               </span>
               <br />
-              <span className="text-white/90">Community Archives</span>
+              <span className="text-white/90">Archives</span>
             </h1>
             
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
