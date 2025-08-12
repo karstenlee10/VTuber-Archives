@@ -120,14 +120,14 @@ export default function Home() {
     }
   };
   const neuroVerseStreamers = [
-    { name: "Neuro-sama", handle: "Vedal987", episodes: "113", status: "Active", type: "AI VTuber", image: "/neuro-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP31cfULqrZEn2n16hve7uiOy", twitchUrl: "https://www.twitch.tv/vedal987" },
-    { name: "Cerber", handle: "cerbervt", episodes: "190", status: "Active", type: "Friend", image: "/cerber-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP31CA3HBltKCZYcNQl5xSn6J", twitchUrl: "https://www.twitch.tv/cerbervt" },
-    { name: "Mini", handle: "minikomew", episodes: "97", status: "Active", type: "Friend", image: "/mini-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP33MZqFjCtFzxdfCyTT8979f", twitchUrl: "https://www.twitch.tv/minikomew" },
-    { name: "Mega", handle: "megalodonvt", episodes: "33", status: "Active", type: "Friend", image: "/mega-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP30r6WkdhOV97Ot3FtCv7FVa", twitchUrl: "https://www.twitch.tv/megalodonvt" },
-    { name: "Aquwa", handle: "aquwa", episodes: "10", status: "Active", type: "Friend", image: "/aquwa-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP300KVO5vlaHlj-Q4NLKjKMr", twitchUrl: "https://www.twitch.tv/aquwa" },
-    { name: "Anny", handle: "not_anny", episodes: "50", status: "Active", type: "Friend", image: "/anny-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP31nNpgN42NwGgempVTF8Ayk", twitchUrl: "https://www.twitch.tv/not_anny" },
-    { name: "Camila", handle: "camila", episodes: "3", status: "Inactive", type: "Friend", image: "/camila-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP30mG6aLpRD51m0-JqKulABY", twitchUrl: "https://www.twitch.tv/camila" },
-    { name: "Anny(main)", handle: "anny", episodes: "4", status: "Inactive", type: "Friend", image: "/anny-main-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP33GApqj67KErM6gVFpHuM4H", twitchUrl: "https://www.twitch.tv/anny" },
+    { name: "Neuro-sama", handle: "Vedal987", episodes: "113", status: "Active", type: "AI VTuber", image: "neuro-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP31cfULqrZEn2n16hve7uiOy", twitchUrl: "https://www.twitch.tv/vedal987" },
+    { name: "Cerber", handle: "cerbervt", episodes: "190", status: "Active", type: "Friend", image: "cerber-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP31CA3HBltKCZYcNQl5xSn6J", twitchUrl: "https://www.twitch.tv/cerbervt" },
+    { name: "Mini", handle: "minikomew", episodes: "97", status: "Active", type: "Friend", image: "mini-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP33MZqFjCtFzxdfCyTT8979f", twitchUrl: "https://www.twitch.tv/minikomew" },
+    { name: "Mega", handle: "megalodonvt", episodes: "33", status: "Active", type: "Friend", image: "mega-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP30r6WkdhOV97Ot3FtCv7FVa", twitchUrl: "https://www.twitch.tv/megalodonvt" },
+    { name: "Aquwa", handle: "aquwa", episodes: "10", status: "Active", type: "Friend", image: "aquwa-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP300KVO5vlaHlj-Q4NLKjKMr", twitchUrl: "https://www.twitch.tv/aquwa" },
+    { name: "Anny", handle: "not_anny", episodes: "50", status: "Active", type: "Friend", image: "anny-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP31nNpgN42NwGgempVTF8Ayk", twitchUrl: "https://www.twitch.tv/not_anny" },
+    { name: "Camila", handle: "camila", episodes: "3", status: "Inactive", type: "Friend", image: "camila-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP30mG6aLpRD51m0-JqKulABY", twitchUrl: "https://www.twitch.tv/camila" },
+    { name: "Anny(main)", handle: "anny", episodes: "4", status: "Inactive", type: "Friend", image: "anny-main-square.jpg", playlist: "https://www.youtube.com/playlist?list=PLwS-E6N8LP33GApqj67KErM6gVFpHuM4H", twitchUrl: "https://www.twitch.tv/anny" },
   ];
 
   const filianData = {
@@ -150,7 +150,7 @@ export default function Home() {
       videos: "437",
       creators: "6",
       youtubeUrl: "https://youtube.com/@NeuroVerseUnofficialVODS",
-      image: "/neuroverse-channel-avatar.jpg",
+      image: "neuroverse-channel-avatar.jpg",
       primaryColor: "cyan",
       accentColor: "blue"
     },
@@ -162,7 +162,7 @@ export default function Home() {
       videos: "146", 
       creators: "1",
       youtubeUrl: "https://youtube.com/@FilianVODSArchive",
-      image: "/filian-channel-avatar.jpg",
+      image: "filian-channel-avatar.jpg",
       primaryColor: "purple",
       accentColor: "pink"
     }
@@ -418,7 +418,7 @@ export default function Home() {
       <section className="relative overflow-hidden py-20">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10" 
-          style={{ backgroundImage: `url('/cyber-bg-new.jpg')` }}
+          style={{ backgroundImage: `url('cyber-bg-new.jpg')` }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-cyan-600/20" />
         
@@ -677,7 +677,7 @@ export default function Home() {
                   <CardContent className="space-y-4">
                     <div className="aspect-[4/3] relative rounded-lg overflow-hidden">
                       <img 
-                        src="/filian-square.jpg" 
+                        src="filian-square.jpg" 
                         alt="Filian VTuber"
                         className="w-full h-full object-cover"
                       />
