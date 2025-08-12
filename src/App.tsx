@@ -806,7 +806,7 @@ export default function Home() {
       <footer className="py-12 bg-slate-900/50 border-t border-slate-800">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <h3 className="text-white font-semibold mb-4">VTuber Stream Archives</h3>
+            <h3 className="text-white font-semibold mb-4">VTuber Archives</h3>
             <p className="text-slate-400 mb-6">
               A preservation projects for Neuro-sama (AI VTuber), Neuro-sama's friends, and Filian streams
             </p>
