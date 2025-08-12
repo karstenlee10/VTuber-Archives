@@ -200,7 +200,7 @@ export default function Home() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <Archive className="w-6 h-6 text-cyan-300" />
-                <span className="text-xl font-bold text-white">VTuber Archives(Contact Email: neurosamaarchive@gmail.com)</span>
+                <span className="text-xl font-bold text-white">VTuber Archives</span>
               </div>
               <div className="flex gap-4">
                 <Button 
