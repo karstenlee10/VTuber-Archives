@@ -711,7 +711,7 @@ export default function Home() {
               <span className="text-purple-300">Automation</span> Behind the Scenes
             </h2>
             <p className="text-slate-400 max-w-2xl mx-auto">
-              The technical infrastructure behind these personal archival projects
+              The technical infrastructure behind this archival projects
             </p>
           </div>
           
